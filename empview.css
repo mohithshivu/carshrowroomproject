@@ -1,0 +1,48 @@
+body{
+    background-image: url('pic53.jpg') ;
+    background-size: cover;
+    font-family: sans-serif;
+    height:100vh;
+}
+ul
+{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    border-radius: 10px;
+}
+ul li
+{
+    float : left;
+    width : 200px;
+    height : 40px;
+    background-color: black;
+    opacity : .8;
+    line-height : 40px;
+    text-align : center;
+    font-size : 20px;
+    color: white;
+    border-color:  white;
+
+    margin: 1px;
+}
+ur li a
+{
+    text-decoration: none;
+    color: white;
+    display: block;
+    
+}
+ur li a:hover
+{
+    background-color: green;
+    
+}
+ul li ul li
+{
+    display : none;
+}
+ul li:hover ul li
+{
+    display: block;
+}
