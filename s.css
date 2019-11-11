@@ -1,0 +1,43 @@
+body{
+    background: url('pic20.jpg') no-repeat;
+    background-size: cover;
+    font-family: sans-serif;
+    color : white;
+}
+ul
+{
+    margin:0px;
+    padding: 0px;
+    list-style: none;
+    
+}
+.menu-bar ul li
+{
+    float: left;
+    width: 200px;
+    height: 40px;
+    background-color: black;
+    opacity: .8;
+    line-height: 40px;
+    text-align: center;
+    font-size: 20px;
+}
+.menu-bar ur li a
+{
+	text-decoration: none;
+	color: white;
+	display: block;
+}
+.active, menu-bar ur li a:hover
+{
+    background-color: green;
+    
+}
+ul li ul li
+{
+    display: none;
+}
+ul li:hover ul li
+{
+	display: block;
+}
